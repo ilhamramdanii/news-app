@@ -44,7 +44,7 @@ The project strictly follows **Clean Architecture** to ensure the code is decoup
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/news_app.git
+    git clone https://github.com/ilhamramdanii/news_app.git
     cd news_app
     ```
 
