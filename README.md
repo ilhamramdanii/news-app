@@ -8,13 +8,13 @@
 
 ##  Key Features
 
-- ** Smart News Feed:** Real-time top headlines filtered by categories using NewsAPI.
-- ** Global Search:** Find any article with a powerful keyword search engine.
-- ** Offline Bookmarks:** Save and read articles even without an internet connection, powered by **Hive (NoSQL)**.
-- ** Auth Simulation:** Full authentication flow (Login/Register/Logout) with smart UI redirection.
-- ** Interactive Notifications:** Integrated with **Firebase Cloud Messaging (FCM)** for user engagement.
-- ** Dynamic Campaigns:** Real-time banner updates (e.g., promo/announcements) via **Firebase Remote Config** without app updates.
-- ** Responsive UI:** Clean, modern, and adaptive interface with support for **Dark & Light Mode**.
+- **Smart News Feed:** Real-time top headlines filtered by categories using NewsAPI.
+- **Global Search:** Find any article with a powerful keyword search engine.
+- **Offline Bookmarks:** Save and read articles even without an internet connection, powered by **Hive (NoSQL)**.
+- **Auth Simulation:** Full authentication flow (Login/Register/Logout) with smart UI redirection.
+- **Interactive Notifications:** Integrated with **Firebase Cloud Messaging (FCM)** for user engagement.
+- **Dynamic Campaigns:** Real-time banner updates (e.g., promo/announcements) via **Firebase Remote Config** without app updates.
+- **Responsive UI:** Clean, modern, and adaptive interface with support for **Dark & Light Mode**.
 
 ##  System Architecture
 
@@ -24,7 +24,7 @@ The project strictly follows **Clean Architecture** to ensure the code is decoup
 2.  **Domain Layer:** Business logic containing Entities, Repository interfaces, and Use Cases.
 3.  **Presentation Layer:** UI components and state management using the BLoC pattern.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **State Management:** `flutter_bloc`
 - **Networking:** `dio` (with interceptors and error handling)
@@ -34,7 +34,7 @@ The project strictly follows **Clean Architecture** to ensure the code is decoup
 - **Image Handling:** `cached_network_image`
 - **Permissions:** `permission_handler`
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Flutter SDK (Latest Stable)
@@ -67,14 +67,14 @@ The project strictly follows **Clean Architecture** to ensure the code is decoup
     flutter run
     ```
 
-## 🧪 Testing
+##  Testing
 
 The project includes unit tests to ensure the reliability of business logic.
 ```bash
 flutter test
 ```
 
-## 📄 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
